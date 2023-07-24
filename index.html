@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>basic :: Basic Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<link rel="stylesheet" href="css/style.css">
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/@terwanerik/scrolltrigger@1.0.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+</head>
+<body>
+	<div class="wrapper">
+		<section id="top">
+			<div class="header clearfix">
+				<div class="logo">
+					<h1><a href="">J.JINY</a></h1>
+				</div>	
+				<nav id="gnb">
+					<ul>
+						<li><a href="">HOME</a></li>
+						<li><a href="">SKILLS</a></li>
+						<li><a href="">PORTFOLIO</a></li>
+						<li><a href="">ABOUT</a></li>
+					</ul>
+				</nav>	
+				<div class="tab" id="open_tab">
+					<a href="">
+						<span></span>
+						<span></span>
+					</a>
+				</div>
+				<div class="total" id="open_menu">
+					<div class="mymenu">
+						<div class="menu_inner">
+							<ul class="menuD">
+								<li><a href="">HOME</a></li>
+								<li><a href="">SKILLS</a></li>
+								<li><a href="">PORTFOLIO</a></li>
+								<li><a href="">ABOUT</a></li>
+							</ul>
+						</div>
+						<div class="inner_utile">
+							<ul>
+								<li>
+									<a href="">									
+										<i><img src="images/w_link1.png" alt="link1"></i>							
+									</a>
+								</li>
+								<li>
+									<a href="">									
+										<i><img src="images/w_link2.png" alt="link2"></i>						
+									</a>
+								</li>
+								<li>
+									<a href="">									
+										<i><img src="images/w_link3.png" alt="link3"></i>						
+									</a>
+								</li>
+							</ul>
+						</div>						
+					</div>
+				</div>
+			</div>
+			<div class="top_inner">
+				<div class="visual">
+					<div class="swiper mainSwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="images/slider1.jpg" alt="slider1">
+								<div class="keytext">
+									<strong>PRESSCAT<span>Renewal</span></strong>
+									<p>: 제작기간 <i>23.6.20 ~ 7.02</i></p>
+									<ul class="des_list">
+										<li>#UI/UX기반 웹사이트</li>
+										<li>#JavaScript Native</li>
+										<li>#SASS</li>
+										<li>#HTML5 + CSS3</li>
+									</ul>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<img src="images/slider2.png" alt="slider2">
+								<div class="keytext">									
+									<strong>올고다<span>Renewal</span></strong>
+									<p>: 제작기간 <i>23.5.15 ~ 6.05</i></p>
+									<ul class="des_list">
+										<li>#UI/UX기반 웹사이트</li>
+										<li>#JavaScript Native</li>
+										<li>#SwiperJS</li>
+										<li>#HTML5 + CSS3</li>
+									</ul>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<img src="images/slider3.jpg" alt="slider3">
+								<div class="keytext">
+									<strong>오므토토마토<span>Renewal</span></strong>
+									<p>: 제작기간 <i>23.4.17 ~ 4.30</i></p>
+									<ul class="des_list">
+										<li>#UI/UX기반 웹사이트</li>
+										<li>#jQuery</li>
+										<li>#SwiperJS</li>
+										<li>#SASS</li>
+										<li>#HTML5 + CSS3</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="site_visit" onclick="location.href=''"; >사이트 바로가기</button>
+						<button type="button" class="view_detail" onclick="location.href=''";>디자인 가이드</button>
+						<div class="intro_box">
+							<div class="main_tit">Port <br>folio.</div>
+							<div class="control">
+								<div class="swiper-pagination"></div>
+								<div class="arrow">
+									<a href="" class="left_btn"></a>
+									<a href="" class="right_btn"></a>
+								</div>
+							</div>							
+						</div>						
+					</div>
+				</div>					
+			</div>
+			<div class="utile">
+				<ul>
+					<li>
+						<a href="">
+							<span>GitHub</span>
+							<i><img src="images/link1.png" alt="link1"></i>							
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span>CodePen</span>
+							<i><img src="images/link2.png" alt="link2"></i>						
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span>Blog</span>
+							<i><img src="images/link3.png" alt="link3"></i>						
+						</a>
+					</li>
+				</ul>
+				<a href="" class="my_btn">
+					<span>About_me</span>
+					<i class="about_me"><img src="images/about_me.png" alt="about_me"></i>
+				</a>
+			</div>
+		</section>
+		<section id="page1">
+			<div class="inner clearfix">
+				<div class="intro">
+					<h3>SKILLS</h3>
+					<p>	: 안녕하세요, 신입 <strong>프론트 엔드 개발자 장진희</strong>입니다.</p>	
+				</div>							
+				<ul class="skill_list">
+					<li>
+						<a href="" class="sk_box">
+							<i class="num">01.</i>
+							<span class="sk_title">ReactJS 18</span>
+							<P class="SK_txt">
+								<strong></strong>
+								<span>React를 활용한 사용자 인터페이스 구현</span>
+								<span>JSX, JavaScript 확장 XML 작성</span>
+								<span>Fetch API를 활용한 AJAX 구현</span>
+								<span>Route, Axios, Redux 라이브러리 활용</span>
+							</P>
+						</a>
+					</li>
+					<li>
+						<a href="" class="sk_box">
+							<i class="num">02.</i>
+							<span class="sk_title">JavaScript</span>
+							<P class="SK_txt">
+								<strong></strong>
+								<span>jQuery 플러그인 활용 및 구현</span>
+								<span>외부 API 구현(Google Map, SwiperJS)</span>
+								<span>EcmaScript 2022 기반 Native JavaScript 구현</span>								
+							</P>
+						</a>
+					</li>
+					<li>
+						<a href="" class="sk_box">
+							<i class="num">03.</i>
+							<span class="sk_title">JSP</span>
+							<P class="SK_txt">
+								<strong></strong>
+								<span>Java 웹 애플리케이션 구현</span>
+								<span>기본 include와 제어문 작성</span>
+							</P>
+						</a>
+					</li>
+					<li>
+						<a href="" class="sk_box">
+							<i class="num">04.</i>
+							<span class="sk_title">SASS</span>
+							<P class="SK_txt">
+								<strong></strong>
+								<span>CSS 전처리 기능프로그래밍(SASS)</span>
+							</P>
+						</a>
+					</li>
+					<li>
+						<a href="" class="sk_box">
+							<i class="num">05.</i>
+							<span class="sk_title">SCS</span>
+							<P class="SK_txt">
+								<strong></strong>
+								<span>GitHub를 활용한 Git 시스템 협업</span>
+							</P>
+						</a>
+					</li>
+					<li>
+						<a href="" class="sk_box">
+							<i class="num">06.</i>
+							<span class="sk_title">HTML</span>
+							<P class="SK_txt">
+								<strong></strong>
+								<span>HTML5 DTD 문법 준수 웹 접근성을 높인 Semantic Page 작성</span>
+							</P>
+						</a>
+					</li>
+					<li>
+						<a href="" class="sk_box">
+							<i class="num">07.</i>
+							<span class="sk_title">CSS</span>
+							<P class="SK_txt">
+								<strong></strong>
+								<span>IR 기법을 이용한 스타일 작성</span>
+							</P>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section id="page2">
+			<div class="inner">
+				<div class="intro">
+					<h3>PORTFOLIO</h3>
+				</div>
+				<div class="tab_box">
+					<div class="tab_list">
+						<ul>
+							<li><a href="">디지털 플랫폼</a></li>
+							<li><a href="">디지털 마케팅</a></li>
+							<li><a href="">디지털 컨텐츠</a></li>
+						</ul>
+					</div>
+					<div class="tag_list">
+						<a href="" class="tag">#JavaScript Native</a>
+						<a href="" class="tag">#UI/UX기반 웹사이트</a>
+						<a href="" class="tag">#jQuery</a>
+						<a href="" class="tag">#SASS</a>
+						<a href="" class="tag">#SEO</a>
+						<a href="" class="tag">#HTML5 + CSS3</a>
+					</div>
+					<div class="tag_list">
+						<a href="" class="tag">#GUI</a>
+						<a href="" class="tag">#SEO</a>
+						<a href="" class="tag">#Platform</a>
+					</div>
+				</div>
+				<ul class="worklist">
+					<li class="worklist_item">
+						<a href="">
+							<div class="list"><img src="images/worklist1.jpg" alt="worklist1"></div>
+							<button type="button" class="view_detail">자세히 보기</button>
+						</a>
+						<div class="info">
+							<div class="hash_tag"><p>#UI/UX</p><p>#JavaScript</p></div>
+							<div class="info_r">
+								<a href="">
+									<h4>PRESSCAT</h4>
+									<span>Responsive Web design</span>
+								</a>
+								<div class="txt">
+									<p>
+										웹 에이전시인 프레스캣은 사용자에게 신뢰감을 높이기 위해,
+										기존의 복잡하고 정돈되지 않은 레이아웃을 간결하게 구성하여
+										콘텐츠 경험을 개선하고 깔끔한 느낌을 높였습니다.
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</li>
+					<li class="worklist_item">
+						<a href="">
+							<div class="list"><img src="images/worklist2.jpg" alt="worklist2"></div>
+							<button type="button" class="view_detail">자세히 보기</button>
+						</a>
+						<div class="info">
+							<div class="hash_tag"><p>#UI/UX</p><p>#JavaScript</p><p>#SwiperJS</p></div>
+							<div class="info_r">
+								<a href="">
+									<h4>올고다</h4>
+									<span>Responsive Web design</span>
+								</a>
+								<div class="txt">
+									<p>
+										올고다는 마루시공업체로 
+										기존의 다소 어둡고 정적인 느낌을 없애기 위해
+										컨텐츠 중심으로 구성된 레이아웃과 적절한 인터렉션 효과를 주었습니다.
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="worklist_item">
+						<a href="">
+							<div class="list"><img src="images/worklist3.jpg" alt="worklist3"></div>
+							<button type="button" class="view_detail">자세히 보기</button>
+						</a>
+						<div class="info">
+							<div class="hash_tag"><p>#UI/UX</p><p>#SwiperJS</p><p>#jQuery</p></div>
+							<div class="info_r">
+								<a href="">
+									<h4>오므토토마토</h4>
+									<span>Responsive Web design</span>
+								</a>
+								<div class="txt">
+									<p>	
+										오므토토마토는 오믈렛 외식업체로							
+										기존 메인페이지 이미지를 슬라이더 형식으로 동적인 변화를 주었고
+										이용자가 제품을 쉽게 인지하도록 배치하였습니다.
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>			
+			</div>
+		</section>
+		<section id="page3">
+			<div class="inner">				
+				<div class="intro">
+					<h3>About_me</h3>
+					<p> : 실패를 두려워 말고 계속 도전하자.</p>
+				</div>
+				<div class="right">
+					<div class="intro_img"><img src="images/skill1.jpg" alt=""></div>
+					<div class="introduce">
+						<p class="name">장진희<span>Jinhee Jang</span></p>
+						<p class="p_number">010-4572-2820</p>
+						<p class="blog">https://blog.naver.com/jukistyle</p>
+						<p class="git">https://github.com/zzang1537</p>
+						<p class="about">
+							가나다라마바사아자차카타파하 블라블라블라 가나다라마바사아자차카타파하<br>
+							블라블라블라 가나다라마바사아자차카타파하 블라블라블라.<br>
+							라마바사아자차카타파하 블라블라블라.
+						</p>
+					</div>	
+				</div>			
+			</div>
+		</section>
+	</div>
+</body>
+</html>
