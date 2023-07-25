@@ -189,6 +189,20 @@ window.addEventListener("load", function(){
 		e.preventDefault();
 		gsap.to(window, {scrollTo: pageLi[3], duration: 0.5});
 	});
+
+	this.document.getElementById("detail1").addEventListener("click", function(e){
+		e.preventDefault();
+		location.href="project_template1.html";
+	});
+	this.document.getElementById("detail2").addEventListener("click", function(e){
+		e.preventDefault();
+		location.href="project_template2.html";
+	});
+	this.document.getElementById("detail3").addEventListener("click", function(e){
+		e.preventDefault();
+		location.href="project_template3.html";
+	});
+
 });
 
 
