@@ -1,5 +1,5 @@
 
-$(function(){
+window.addEventListener("load", function(){
 	let wrapper=document.getElementsByClassName("wrapper")[0];
 	let body=document.body;
 	let pageLi=wrapper.children;
@@ -133,9 +133,8 @@ $(function(){
 
 	let mainSwiper=top.querySelector(".mainSwiper");
 	let [swiperWrapper, visitBtn, detailBtn, control]=mainSwiper.children;
-	let arrow=control.lastElementChild;
+	let arrow=control.lastElementChild.lastElementChild;
 	let [leftBtn, rightBtn]=arrow.children;
-	console.log(visitBtn,detailBtn);
 
     // swiper
     let swiper = new Swiper(".mainSwiper", {
@@ -154,9 +153,6 @@ $(function(){
             450: {
                 spaceBetween: 100
             },
-            1100: {
-                
-            }
         },
         on: {
             init: function(){
@@ -178,12 +174,12 @@ $(function(){
 
 	leftBtn.addEventListener("click", function(e){
 		e.preventDefault();
-		console.log("L.click");
+		//console.log("L.click");
 		swiper.slidePrev();				
 	});
 	rightBtn.addEventListener("click", function(e){
 		e.preventDefault();
-		console.log("R.click");
+		//console.log("R.click");
 		swiper.slideNext();		
 	});
 
