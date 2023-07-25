@@ -1,5 +1,10 @@
 window.addEventListener("load", function(){
 	let pageLi=document.querySelectorAll("section[class^=main]");
+	let mainView=this.document.querySelector(".main_view");
+	let btnBox=mainView.firstElementChild.lastElementChild.lastElementChild;
+	let prevBtn=btnBox.firstElementChild;
+	let nextBtn=btnBox.lastElementChild;
+
 	let n, winH;
 	let prevN;
 
