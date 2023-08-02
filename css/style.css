@@ -1040,6 +1040,9 @@ button {
     font-weight: 300;
     color: #474747;
 }
+#page3 .introduce p.about {
+	padding-top: 20px;
+}
 #page3 .introduce p.about span {
 	display: block;
     font-weight: 300;
