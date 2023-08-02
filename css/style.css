@@ -784,6 +784,22 @@ button {
 		width: 100%;
 	}
 }
+@media only screen and (max-width: 460px){
+	#page1 {
+		padding: 200px 20px 100px 20px;
+		font-size: 13px;
+	}
+	#page1 .inner li span.sk_title {
+		/* width: 15%;
+		padding: 0 10px 10px 10px; */
+		margin-left: 0px;
+		/* font-size: 1.250em;
+		line-height: 50px;
+		font-weight: 600;
+		color: #000;
+		letter-spacing: -.8px; */
+	}
+}
 /*-----  page2  ---------------------------------------------------*/
 #page2 {
 	padding: 200px 0;
@@ -863,7 +879,7 @@ button {
     background-color: rgba(0, 0, 0, 0.1);
 	transition: background-color 0.4s;
 }
-#page2 .inner .worklist li a button:hover {
+#page2 .inner .worklist li:hover a button {
 	background-color: #000000a1;
 }
 #page2 .inner .worklist li .info {
@@ -884,7 +900,7 @@ button {
 #page2 .inner .worklist li .info .info_r h4 {
 	font-size: 2.500em;
 }
-#page2 .inner .worklist li .info .info_r span {
+#page2 .inner .worklist li .info .info_r a span {
 	display: block;
 	padding-top: 10px;
 	font-size: 2.500em;
@@ -895,6 +911,10 @@ button {
 	text-align: left;
 }
 #page2 .inner .worklist li .info .info_r .txt p {
+	margin-top: 16px;
+}
+#page2 .inner .worklist li .info .info_r .txt p span {
+	display: block;
 	line-height: 1.6;
 	font-size: 0.938em;
     font-weight: 300;
@@ -933,15 +953,14 @@ button {
 		padding: 20px 10px 0 0;
 		line-height: 1.2;
 	}
-	#page2 .inner .worklist li .info .info_r span {
+	#page2 .inner .worklist li .info .info_r a span {
 		font-size: 1.800em;
 		color: #999;
 		border-bottom: 1px solid #eaeaea;
 		padding: 5px 0 10px 0;
 	}
-	#page2 .inner .worklist li .info .info_r .txt p {
+	#page2 .inner .worklist li .info .info_r .txt p span {
 		white-space: revert;
-		padding-top: 10px;
 	}
 }
 @media only screen and (max-width: 1100px) {
@@ -973,6 +992,9 @@ button {
 	}
 }
 @media only screen and (max-width: 460px){
+	#page2 {
+		font-size: 13px;
+	}
 	#page2 .inner .worklist li a button {
 		padding: 5px 15px;
 		right: 40px;
@@ -982,7 +1004,7 @@ button {
 }
 /*-----   page3  -----------------------------------------------------*/
 #page3 {
-	padding: 200px 0 150px 0;
+	padding: 200px 20px 150px 20px;
 	background-color: #f5f5f5;
 }
 #page3 .inner {
@@ -1013,20 +1035,18 @@ button {
     color: #000;
     letter-spacing: -.8px;
 }
-#page3 .introduce p span {
+#page3 .introduce p.name span {
 	padding-left: 7px;
     font-weight: 300;
     color: #474747;
 }
-#page3 .introduce p.about {
+#page3 .introduce p.about span {
+	display: block;
     font-weight: 300;
 	line-height: 1.5;
     color: #474747;
 }
 @media only screen and (max-width: 1280px) {
-	#page3 .inner {
-		padding: 0 20px;
-	}
 	#page3 .inner .my_page {
 		font-size: 3.125em;
 	}
@@ -1041,9 +1061,6 @@ button {
 	#page3 .inner .intro {
 		display: block;
 	}
-	#page3 .inner h3 {
-		left: 20px;
-	}
 	#page3 .inner .intro p {
 		font-size: 2.188em;
 		padding-top: 25px;
@@ -1051,6 +1068,9 @@ button {
 	}
 }
 @media only screen and (max-width: 790px){
+	#page3 {
+		padding: 200px 20px 100px 20px;
+	}
 	#page3 .inner .intro p {
 		font-size: 1.688em;
 	}
@@ -1067,7 +1087,13 @@ button {
 		margin-left: 50px;
 	}
 }
-
-
+@media only screen and (max-width: 460px){
+	#page3 {
+		font-size: 13px;
+	}
+	#page3 .introduce {
+		margin-left: 0px;
+	}
+}
 
 

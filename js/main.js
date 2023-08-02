@@ -11,6 +11,7 @@ window.addEventListener("load", function(){
 	let gnbLi=gnb.firstElementChild.children;
     let n=0;
 	let prevN;
+	console.log(wrapper.children);
 
 	function tabClose(){
 		body.classList.remove("fixed");
@@ -30,11 +31,11 @@ window.addEventListener("load", function(){
 		}
 	});
 
-	let winW;
+	//let winW;
 	let winH;
 
 	function init(){
-		winW=window.innerWidth;
+		//winW=window.innerWidth;
 		winH=window.innerHeight*0.3;
 		gnbLi[n].classList.add("on");
 	}
